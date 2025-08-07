@@ -9,6 +9,7 @@ export default function RootLayout() {
   return (
     <>
       <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="login" options={{ headerShown: false }} />
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="simulation" options={{ headerShown: false }} />
         <Stack.Screen name="cctv" options={{ headerShown: false }} />
